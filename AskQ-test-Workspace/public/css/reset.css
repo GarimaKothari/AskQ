@@ -1,0 +1,47 @@
+html body{
+    background-image: url("login_bg.jpg");
+}
+
+input{
+    display: block;
+    margin: 10px auto !important;
+    width: 50% !important;
+}
+
+input[type="submit"]{
+    width: 50%;
+    background-color:#ff1a1a;
+    font-weight:500;
+    color: white;
+}
+input[type="submit"]:focus{
+    outline: none !important;
+    background-color:#e62e00;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    outline: none !important;
+    background-color: red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+input[type="password"]{
+
+    border:1.5px solid #bfbfbf;
+    padding: 4px;
+}
+.container .card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+

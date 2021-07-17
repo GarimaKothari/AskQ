@@ -1,0 +1,55 @@
+
+html body{
+    background:#ffffff;
+}
+
+input{
+    display: block !important;
+    margin: 10px auto !important;
+    width: 50% !important;
+}
+
+input[type="submit"]{
+    
+    width: 50%;
+    background-color:#ff1a1a;
+    font-weight:500;
+}
+input[type="submit"]:focus{
+    
+    background-color:#e62e00;
+}
+
+input[type="submit"]:hover{
+    
+    background-color: red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    
+}
+
+input[type="email"]{
+    border:1.5px solid #bfbfbf;
+    padding: 4px;
+}
+
+input[type="email"]:focus{
+    outline: none !important;
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.container .card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+a{
+    color : #ffcc00 !important;
+}
+
+a:hover{
+    color : #cc6600 !important;
+}
+
